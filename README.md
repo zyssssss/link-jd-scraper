@@ -67,7 +67,15 @@ python -m src.cli scrape-jd \
 
 ---
 
-## 4. 申请（dry-run）
+## 4. Chrome 插件（抓 jobId / 导出 JD CSV）
+
+本仓库附带一个 Chrome 插件，可以在 LinkedIn 的职位详情页/列表页导出 CSV。
+
+使用说明：见 `docs/04-chrome-extension.md`
+
+---
+
+## 5. 申请（dry-run）
 
 ```bash
 python -m src.cli apply-dry-run \

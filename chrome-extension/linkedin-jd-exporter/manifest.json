@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn JD Exporter",
+  "version": "0.1.0",
+  "description": "Export current LinkedIn Job Description page to CSV (Downloads).",
+  "action": {
+    "default_title": "Export JD to CSV",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "downloads", "scripting", "tabs"],
+  "host_permissions": ["https://www.linkedin.com/*"]
+}
